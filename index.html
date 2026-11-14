@@ -23,7 +23,7 @@
             </a>
             <nav class="hidden md:flex items-center gap-7 text-sm font-medium text-slate-600">
                 <a href="#featured-app" class="hover:text-emerald-600 transition">แอปบน Play Store</a>
-                <a href="#upcoming-apps" class="hover:text-emerald-600 transition">แอปในเครือ</a>
+                <a href="#upcoming-apps" class="hover:text-emerald-600 transition">แอปในเครือ (6)</a>
                 <a href="#services" class="hover:text-emerald-600 transition">บริการรับทำระบบ</a>
                 <a href="#about" class="hover:text-emerald-600 transition">แนวคิดการทำงาน</a>
             </nav>
@@ -46,7 +46,7 @@
                     <span class="text-emerald-600">ที่ออกแบบจากคนทำงานจริง</span>
                 </h1>
                 <p class="text-base md:text-lg text-slate-600 leading-relaxed mb-8 max-w-2xl">
-                    พัฒนาแอปพลิเคชัน Android ระบบ POS ออฟไลน์สำหรับร้านค้าและงานบริการ รวมถึงรับสร้างเว็บไซต์ธุรกิจที่เน้นใช้งานง่าย เสถียร ข้อมูลปลอดภัยในเครื่อง 100% ไม่ต้องจ่ายค่ารายเดือนแพงๆ
+                    พัฒนาแอปพลิเคชัน Android ระบบ POS ออฟไลน์ที่เก็บข้อมูลในเครื่อง 100% ไม่ต้องเสียค่ารายเดือน และรับสร้างเว็บไซต์ธุรกิจที่โหลดไว ใช้งานง่าย เพื่อเพิ่มความน่าเชื่อถือและปิดการขายให้ร้านคุณ
                 </p>
                 <div class="flex flex-col sm:flex-row gap-3">
                     <a href="https://play.google.com/store/apps/details?id=com.aistudio.shopservice.mgtq" target="_blank" class="inline-flex items-center justify-center px-6 py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-semibold shadow-md shadow-emerald-600/20 transition">
@@ -91,97 +91,149 @@
                 <span class="text-sm text-slate-500 mt-2 md:mt-0">พิสูจน์ผลงานจริงได้ทันทีบนสมาร์ทโฟนและแท็บเล็ต Android</span>
             </div>
 
-            <!-- Main App Card -->
-            <div class="rounded-2xl border-2 border-emerald-600 bg-gradient-to-br from-emerald-50/50 via-white to-white p-6 md:p-10 shadow-sm">
-                <div class="flex flex-col md:flex-row gap-8 items-start md:items-center justify-between">
-                    <div class="space-y-4 max-w-2xl">
-                        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-600 text-white text-xs font-semibold">
-                            เปิดให้ดาวน์โหลดใช้งานจริง
+            <!-- Main App Card with Banner -->
+            <div class="rounded-2xl border-2 border-emerald-600 bg-white overflow-hidden shadow-sm">
+                <!-- Feature Graphic Banner -->
+                <div class="w-full bg-emerald-50/40 border-b border-emerald-100">
+                    <img src="shopservice.jpg" alt="ระบบจัดการร้านค้าและบริการ - Shop & Service Management" class="w-full max-h-[380px] object-contain mx-auto">
+                </div>
+
+                <!-- Card Content -->
+                <div class="p-6 md:p-10 bg-gradient-to-br from-emerald-50/40 via-white to-white">
+                    <div class="flex flex-col md:flex-row gap-8 items-start md:items-center justify-between">
+                        <div class="space-y-3 max-w-2xl">
+                            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-600 text-white text-xs font-semibold">
+                                เปิดให้ดาวน์โหลดใช้งานจริงบน Play Store
+                            </div>
+                            <div>
+                                <h3 class="text-2xl md:text-3xl font-bold text-slate-900">
+                                    ระบบจัดการร้านค้าและบริการ
+                                </h3>
+                                <div class="text-sm font-medium text-emerald-700 mt-0.5">
+                                    Shop & Service Management
+                                </div>
+                            </div>
+                            <p class="text-slate-600 text-sm md:text-base leading-relaxed pt-1">
+                                แอปพลิเคชันสำหรับร้านคาร์แคร์ อู่ซ่อมรถ ร้านตัดผม-เสริมสวย นวด-สปา และศูนย์บริการ ช่วยบันทึกยอดขาย จัดการคิวงานช่าง ตัดคอร์สแพ็กเกจ คำนวณค่าคอมมิชชัน และส่งออกรายงานภาษีในเครื่องเดียว
+                            </p>
+                            <div class="flex flex-wrap gap-2 pt-2">
+                                <span class="px-3 py-1 rounded-md bg-emerald-50 text-emerald-800 border border-emerald-200 text-xs font-medium">ทำงานแบบออฟไลน์ 100%</span>
+                                <span class="px-3 py-1 rounded-md bg-emerald-50 text-emerald-800 border border-emerald-200 text-xs font-medium">ระบบรันคิวช่าง & คอร์สบริการ</span>
+                                <span class="px-3 py-1 rounded-md bg-emerald-50 text-emerald-800 border border-emerald-200 text-xs font-medium">คำนวณค่าคอมฯ อัตโนมัติ</span>
+                                <span class="px-3 py-1 rounded-md bg-emerald-50 text-emerald-800 border border-emerald-200 text-xs font-medium">ส่งออกเอกสารภาษี</span>
+                            </div>
                         </div>
-                        <h3 class="text-2xl md:text-3xl font-bold text-slate-900">
-                            ระบบจัดการร้านค้าและบริการ
-                        </h3>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">
-                            แอปพลิเคชันสำหรับเจ้าของร้านค้า ร้านเสริมสวย ร้านนวด และธุรกิจบริการ ช่วยจัดระเบียบรายการขาย บันทึกคิวลูกค้า คำนวณยอดรายรับ-รายจ่าย และสรุปภาพรวมร้านได้ในเครื่องเดียว ออกแบบให้หน้าจอสะอาด กดใช้งานง่ายแม้ไม่เก่งเทคโนโลยี
-                        </p>
-                        <div class="flex flex-wrap gap-2 pt-1">
-                            <span class="px-3 py-1 rounded-md bg-emerald-50 text-emerald-800 border border-emerald-200 text-xs font-medium">ทำงานแบบออฟไลน์</span>
-                            <span class="px-3 py-1 rounded-md bg-emerald-50 text-emerald-800 border border-emerald-200 text-xs font-medium">จัดการคิวและบริการ</span>
-                            <span class="px-3 py-1 rounded-md bg-emerald-50 text-emerald-800 border border-emerald-200 text-xs font-medium">สรุปยอดขายอัตโนมัติ</span>
-                            <span class="px-3 py-1 rounded-md bg-emerald-50 text-emerald-800 border border-emerald-200 text-xs font-medium">ข้อมูลปลอดภัยในเครื่อง</span>
+                        <div class="w-full md:w-auto flex flex-col gap-3 shrink-0">
+                            <a href="https://play.google.com/store/apps/details?id=com.aistudio.shopservice.mgtq" target="_blank" class="inline-flex items-center justify-center px-7 py-4 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-center shadow-sm transition">
+                                ติดตั้งฟรีจาก Google Play
+                            </a>
+                            <a href="https://lin.ee/RTSEFQO" target="_blank" class="inline-flex items-center justify-center px-7 py-3 rounded-xl bg-white border border-slate-200 hover:border-emerald-600 text-slate-700 text-sm font-medium text-center transition">
+                                ขอปรับแต่งฟีเจอร์เฉพาะร้าน
+                            </a>
                         </div>
-                    </div>
-                    <div class="w-full md:w-auto flex flex-col gap-3 shrink-0">
-                        <a href="https://play.google.com/store/apps/details?id=com.aistudio.shopservice.mgtq" target="_blank" class="inline-flex items-center justify-center px-7 py-4 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-center shadow-sm transition">
-                            ติดตั้งจาก Google Play
-                        </a>
-                        <a href="https://lin.ee/RTSEFQO" target="_blank" class="inline-flex items-center justify-center px-7 py-3 rounded-xl bg-white border border-slate-200 hover:border-emerald-600 text-slate-700 text-sm font-medium text-center transition">
-                            ขอปรับแต่งฟีเจอร์เฉพาะร้าน
-                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Upcoming Suite -->
+    <!-- Upcoming Suite (5 Apps in Closed Testing) -->
     <section id="upcoming-apps" class="py-16 px-4 bg-slate-50 border-y border-slate-200/80">
         <div class="max-w-5xl mx-auto">
             <div class="mb-10">
-                <span class="text-xs font-bold uppercase tracking-wider text-emerald-600">APP ECOSYSTEM</span>
-                <h2 class="text-2xl md:text-3xl font-bold text-slate-900 mt-1">ชุดแอปพลิเคชันสำหรับร้านค้า (เตรียมเปิดให้โหลดเร็วๆ นี้)</h2>
-                <p class="text-slate-600 text-sm mt-2">พัฒนาขึ้นเพื่อแก้ปัญหาเฉพาะจุดของพ่อค้าแม่ค้าและผู้ประกอบการรายย่อย</p>
+                <span class="text-xs font-bold uppercase tracking-wider text-emerald-600">APP ECOSYSTEM (5 APPS IN TESTING)</span>
+                <h2 class="text-2xl md:text-3xl font-bold text-slate-900 mt-1">แอปพลิเคชันในเครือ (อยู่ระหว่างทดสอบระบบ เตรียมขึ้นสโตร์)</h2>
+                <p class="text-slate-600 text-sm mt-2">พัฒนาเสร็จสมบูรณ์และกำลังผ่านขั้นตอนการทดสอบบน Google Play Console สามารถทักขอไฟล์ทดลองใช้งานก่อนได้</p>
             </div>
 
-            <div class="grid md:grid-cols-3 gap-6">
-                <!-- Deli Shop -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- App 2: Deli Shop -->
                 <div class="bg-white p-6 rounded-2xl border border-slate-200 hover:border-emerald-400 transition flex flex-col justify-between">
                     <div>
                         <div class="flex items-center justify-between mb-4">
-                            <span class="px-2.5 py-1 rounded bg-emerald-50 text-emerald-700 text-xs font-semibold">POS & Thermal Print</span>
-                            <span class="text-xs text-slate-400">เร็วๆ นี้</span>
+                            <span class="px-2.5 py-1 rounded bg-emerald-50 text-emerald-700 text-xs font-semibold">POS & Delivery Cost</span>
+                            <span class="text-xs text-amber-600 font-medium">กำลังทดสอบระบบ</span>
                         </div>
-                        <h3 class="text-lg font-bold text-slate-900 mb-2">Deli Shop</h3>
+                        <h3 class="text-lg font-bold text-slate-900">ระบบจัดการร้านเดลิเวอรี่</h3>
+                        <div class="text-xs font-medium text-slate-400 mb-3">Deli Shop & Food Cost</div>
                         <p class="text-slate-600 text-sm leading-relaxed mb-4">
-                            ระบบขายหน้าร้าน POS เชื่อมต่อเครื่องปริ้นใบเสร็จความร้อนผ่าน Bluetooth และ USB กดคิดเงินและพิมพ์บิลออกได้ทันทีโดยไม่ต้องง้ออินเทอร์เน็ต
+                            ระบบขายหน้าร้าน POS สำหรับร้านอาหารและเดลิเวอรี่ คำนวณต้นทุนอาหาร เชื่อมต่อเครื่องปริ้นใบเสร็จความร้อนผ่าน Bluetooth และ USB แบบออฟไลน์
                         </p>
                     </div>
-                    <a href="https://lin.ee/RTSEFQO" target="_blank" class="text-sm font-semibold text-emerald-600 hover:text-emerald-700 inline-flex items-center gap-1">
-                        ทักขอไฟล์ทดลองใช้ (APK) &rarr;
+                    <a href="https://lin.ee/RTSEFQO" target="_blank" class="text-sm font-semibold text-emerald-600 hover:text-emerald-700 inline-flex items-center gap-1 pt-2 border-t border-slate-100">
+                        ทักขอเข้าร่วมทดสอบแอป &rarr;
                     </a>
                 </div>
 
-                <!-- ShopInvoice2 -->
+                <!-- App 3: ShopInvoice2 -->
                 <div class="bg-white p-6 rounded-2xl border border-slate-200 hover:border-emerald-400 transition flex flex-col justify-between">
                     <div>
                         <div class="flex items-center justify-between mb-4">
                             <span class="px-2.5 py-1 rounded bg-emerald-50 text-emerald-700 text-xs font-semibold">Invoice & QR Payment</span>
-                            <span class="text-xs text-slate-400">เร็วๆ นี้</span>
+                            <span class="text-xs text-amber-600 font-medium">กำลังทดสอบระบบ</span>
                         </div>
-                        <h3 class="text-lg font-bold text-slate-900 mb-2">ShopInvoice2</h3>
+                        <h3 class="text-lg font-bold text-slate-900">ระบบจัดการบิลและใบเสร็จ</h3>
+                        <div class="text-xs font-medium text-slate-400 mb-3">ShopInvoice2</div>
                         <p class="text-slate-600 text-sm leading-relaxed mb-4">
-                            แอปออกใบเสนอราคา ใบแจ้งหนี้ และใบเสร็จรับเงินแบบออฟไลน์ พร้อมระบบสร้าง QR Code รับเงินในตัว จบงานเอกสารได้จากมือถือเครื่องเดียว
+                            แอปออกใบเสนอราคา ใบแจ้งหนี้ และใบเสร็จรับเงินแบบออฟไลน์ พร้อมระบบสร้าง QR Code รับชำระเงินในตัว จบงานเอกสารได้จากมือถือเครื่องเดียว
                         </p>
                     </div>
-                    <a href="https://lin.ee/RTSEFQO" target="_blank" class="text-sm font-semibold text-emerald-600 hover:text-emerald-700 inline-flex items-center gap-1">
-                        สอบถามรายละเอียด &rarr;
+                    <a href="https://lin.ee/RTSEFQO" target="_blank" class="text-sm font-semibold text-emerald-600 hover:text-emerald-700 inline-flex items-center gap-1 pt-2 border-t border-slate-100">
+                        ทักขอเข้าร่วมทดสอบแอป &rarr;
                     </a>
                 </div>
 
-                <!-- ShopTax -->
+                <!-- App 4: ShopTax -->
                 <div class="bg-white p-6 rounded-2xl border border-slate-200 hover:border-emerald-400 transition flex flex-col justify-between">
                     <div>
                         <div class="flex items-center justify-between mb-4">
                             <span class="px-2.5 py-1 rounded bg-emerald-50 text-emerald-700 text-xs font-semibold">VAT & Tax Tracker</span>
-                            <span class="text-xs text-slate-400">เร็วๆ นี้</span>
+                            <span class="text-xs text-amber-600 font-medium">กำลังทดสอบระบบ</span>
                         </div>
-                        <h3 class="text-lg font-bold text-slate-900 mb-2">ShopTax</h3>
+                        <h3 class="text-lg font-bold text-slate-900">ระบบจัดการภาษีร้านค้าออนไลน์</h3>
+                        <div class="text-xs font-medium text-slate-400 mb-3">ShopTax</div>
                         <p class="text-slate-600 text-sm leading-relaxed mb-4">
-                            ระบบบันทึกและคำนวณภาษีมูลค่าเพิ่ม (VAT) สำหรับร้านค้า ช่วยจัดระเบียบยอดซื้อ-ยอดขาย ลดความปวดหัวตอนรวบรวมเอกสารส่งบัญชี
+                            ระบบบันทึกและคำนวณภาษีมูลค่าเพิ่ม (VAT) สำหรับพ่อค้าแม่ค้าออนไลน์ ช่วยจัดระเบียบยอดซื้อ-ยอดขาย ลดความผิดพลาดในการเตรียมเอกสารส่งบัญชี
                         </p>
                     </div>
-                    <a href="https://lin.ee/RTSEFQO" target="_blank" class="text-sm font-semibold text-emerald-600 hover:text-emerald-700 inline-flex items-center gap-1">
-                        สอบถามรายละเอียด &rarr;
+                    <a href="https://lin.ee/RTSEFQO" target="_blank" class="text-sm font-semibold text-emerald-600 hover:text-emerald-700 inline-flex items-center gap-1 pt-2 border-t border-slate-100">
+                        ทักขอเข้าร่วมทดสอบแอป &rarr;
+                    </a>
+                </div>
+
+                <!-- App 5: Online Shop -->
+                <div class="bg-white p-6 rounded-2xl border border-slate-200 hover:border-emerald-400 transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="px-2.5 py-1 rounded bg-emerald-50 text-emerald-700 text-xs font-semibold">E-Commerce Helper</span>
+                            <span class="text-xs text-amber-600 font-medium">กำลังทดสอบระบบ</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900">ระบบจัดการร้านค้าออนไลน์</h3>
+                        <div class="text-xs font-medium text-slate-400 mb-3">Online Shop Manager</div>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                            ผู้ช่วยจัดการออเดอร์ สต็อกสินค้า และสรุปกำไรสุทธิหลังหักค่าธรรมเนียมแพลตฟอร์ม สำหรับผู้ขายสินค้าออนไลน์ที่ต้องการเห็นตัวเลขกำไรที่แท้จริง
+                        </p>
+                    </div>
+                    <a href="https://lin.ee/RTSEFQO" target="_blank" class="text-sm font-semibold text-emerald-600 hover:text-emerald-700 inline-flex items-center gap-1 pt-2 border-t border-slate-100">
+                        ทักขอเข้าร่วมทดสอบแอป &rarr;
+                    </a>
+                </div>
+
+                <!-- App 6: FinTrack -->
+                <div class="bg-white p-6 rounded-2xl border border-slate-200 hover:border-emerald-400 transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="px-2.5 py-1 rounded bg-emerald-50 text-emerald-700 text-xs font-semibold">Personal Finance & AI</span>
+                            <span class="text-xs text-amber-600 font-medium">กำลังทดสอบระบบ</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900">ระบบจัดการเงินส่วนบุคคล</h3>
+                        <div class="text-xs font-medium text-slate-400 mb-3">FinTrack</div>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                            แอปบันทึกรายรับ-รายจ่าย วางแผนงบประมาณ และติดตามสถานะทางการเงินส่วนบุคคล ออกแบบให้บันทึกไว วิเคราะห์พฤติกรรมการใช้เงินได้ชัดเจน
+                        </p>
+                    </div>
+                    <a href="https://lin.ee/RTSEFQO" target="_blank" class="text-sm font-semibold text-emerald-600 hover:text-emerald-700 inline-flex items-center gap-1 pt-2 border-t border-slate-100">
+                        ทักขอเข้าร่วมทดสอบแอป &rarr;
                     </a>
                 </div>
             </div>
